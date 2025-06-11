@@ -1,0 +1,108 @@
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  background: #2e2e2e; /* smooth grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+}
+
+/* Centered Container with glow border */
+.container {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(140, 100, 255, 0.4), 0 0 10px rgba(140, 100, 255, 0.2);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(135deg, #8c63ff, #44c4ff);
+  border-radius: 18px;
+  z-index: -1;
+  filter: blur(6px);
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1) inset;
+  transition: 0.3s;
+}
+
+input[type="text"]::placeholder {
+  color: #bbb;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 10px #8c63ff;
+}
+
+/* Buttons */
+button {
+  background-color: transparent;
+  border: 2px solid #8c63ff;
+  color: #8c63ff;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #8c63ff33;
+}
+
+button:hover {
+  background-color: #8c63ff;
+  color: white;
+  box-shadow: 0 0 15px #8c63ff;
+}
+
+/* Headings */
+h3 {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(140, 100, 255, 0.4);
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  background-color: #3a3a3a;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #505050;
+}
