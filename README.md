@@ -1,4 +1,4 @@
-# react-lottery-mini-project
+ react-lottery-mini-project
 A modular and configurable React lottery game that uses lifting state up and reusable components to generate dynamic tickets and customizable win conditions.
 
 This is a simple React Lottery Game project built using Vite. Initially, the game generates a random lottery ticket and declares a win if the sum of the ticket numbers equals 15.
