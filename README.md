@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # react-ludo-board-mini-project 
 this is a react ludo board mini project to learn the concept of counters and states in objects and arrays in react.
 
@@ -22,5 +23,7 @@ I have now structured the application by breaking it down into modular component
 In addition, the game now supports generating n random numbers per ticket rather than being limited to a fixed size. This makes the core functionality more dynamic and extensible.
 
 I have also applied the concept of lifting state up to enable better control and data flow between components. Shared state (like the generated ticket and result logic) now resides in the parent component and is passed down via props, allowing child components to remain reusable and stateless.
+=======
+>>>>>>> eb394c9697f31b3bffd6ef5dca67a8fe440fd8eb
 
 >>>>>>> 2afcf691acb6d22ffcc847994614ef9846990c79
