@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # react-ludo-board-mini-project 
 this is a react ludo board mini project to learn the concept of counters and states in objects and arrays in react.
 
@@ -9,6 +10,9 @@ This is mini project using which i have learnt the concepts of arrays and states
 >>>>>>> 90378f14051784e8c50694330eeb7dd1eb16e07e
 =======
 # react-lottery-mini-project
+=======
+ react-lottery-mini-project
+>>>>>>> eb3e7a55f4f3f34da70b2709212ef3b0cada0f17
 A modular and configurable React lottery game that uses lifting state up and reusable components to generate dynamic tickets and customizable win conditions.
 
 This is a simple React Lottery Game project built using Vite. Initially, the game generates a random lottery ticket and declares a win if the sum of the ticket numbers equals 15.
